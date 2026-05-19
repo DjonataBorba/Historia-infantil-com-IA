@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Contador de Histórias IA</title>
+</head>
+<body>
+
+  <main class="container">
+    <header>
+      <h1 class="titulo-principal">Histórias Divertidas com IA</h1>
+      <p class="subtitulo">Digite um tema abaixo e deixe a mágica acontecer</p>
+    </header>
+
+    <section class="input-area">
+      <textarea id="prompt-usuario" placeholder="Ex: Um dragão que tinha medo de fogo ou uma viagem à Lua..."></textarea>
+      <button id="btn-gerar" onclick="gerarTexto()">Criar História</button>
+    </section>
+
+    <section class="output-area">
+      <div id="resultado-historia" class="espaco-site">A sua história aparecerá aqui...</div>
+    </section>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
